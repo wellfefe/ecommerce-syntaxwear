@@ -1,1 +1,69 @@
 /* Hero */
+.hero {
+    background-image: url('../../images/banners/principal.svg');
+    background-size: cover;
+    border-radius: 15px;
+    height: 500px;
+    text-align: center;
+    padding: 0px 40px;
+}
+
+.hero-overlay {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0 6rem;
+}
+
+.hero-content {
+    color: var(--cor-superficie);
+    max-width: 360px;
+    text-align: center;
+}
+
+.hero-content .hero-title {
+    font-size: 1.87rem;
+    margin-bottom: 40px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 3px;
+}
+
+.hero-content .hero-subtitle {
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+.btn{
+    font-size: 1.25rem;
+    width: 161;
+    height: 48px;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-weight: 400;
+    padding: 10px 22px;
+    transition: background-color 0.3s ease, transform 0.3s ease, border 0.3s ease;
+}
+
+.btn-primary-outline {
+    background-color: transparent;
+    color: var(--cor-superficie);
+    border: 2px solid #ffffffff;
+    margin-right: 16px;
+    line-height: 23px;
+}
+
+.btn-secondary-fill{
+    background-color: var(--cor-superficie);
+    color: #6329A2;
+    border: none;
+}
+
+.btn:hover {
+    background-color: var(--cor-destaque);
+    color: #ffffff;
+    transform: translateY(-4px);
+}

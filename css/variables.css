@@ -3,7 +3,7 @@
 :root {
     --fonte-principal: 'Ubuntu', sans-serif;
     --cor-texto-principal: #333333;
-    --cor-destaque: #9856EF;
     --cor-superficie: #ffffff;
+    --cor-destaque: #9856EF;
     --sombra-suave: 0 12px 30px rgba(0, 0, 0, 0.12);
 }
