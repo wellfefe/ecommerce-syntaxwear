@@ -1,5 +1,5 @@
 body {
     font-family: var(--fonte-principal);
-    background-color: var(--cor-superficie);
+    background-color: black;
     color: var(--cor-texto-principal);
 }
