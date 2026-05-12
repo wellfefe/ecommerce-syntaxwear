@@ -1,11 +1,13 @@
 /* Hero */
 .hero {
-    background-image: url('../../images/banners/principal.svg');
+    background: url('../../images/banners/principal.svg') no-repeat center;
     background-size: cover;
+    background-position: center 45%;
     border-radius: 15px;
-    height: 500px;
+    height: 550px;
     text-align: center;
     padding: 0px 40px;
+    position: relative;
 }
 
 .hero-overlay {
@@ -29,7 +31,7 @@
     margin-bottom: 40px;
     font-weight: 400;
     line-height: 36px;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
 }
 
 .hero-content .hero-subtitle {
@@ -51,19 +53,21 @@
 .btn-primary-outline {
     background-color: transparent;
     color: var(--cor-superficie);
-    border: 2px solid #ffffffff;
+    border: 2px solid var(--cor-superficie);
     margin-right: 16px;
     line-height: 23px;
+    transition: color 0.4s ease, transform 0.3s ease;
 }
 
 .btn-secondary-fill{
     background-color: var(--cor-superficie);
-    color: #6329A2;
+    color: var(--cor-destaque);
     border: none;
+    transition: color 0.4s ease, transform 0.3s ease;
 }
 
 .btn:hover {
     background-color: var(--cor-destaque);
-    color: #ffffff;
+    color: var(--cor-superficie);
     transform: translateY(-4px);
 }
