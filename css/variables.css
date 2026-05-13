@@ -5,5 +5,5 @@
     --cor-texto-principal: #333333;
     --cor-superficie: #ffffff;
     --cor-destaque: #9856EF;
-    --sombra-suave: 0 12px 30px rgba(0, 0, 0, 0.12);
+    --sombra-suave: 0 0.75rem 1.875rem rgba(0, 0, 0, 0.12);
 }

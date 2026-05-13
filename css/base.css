@@ -6,17 +6,17 @@ body {
 
 main{
     padding: 2.5rem 0 0;
-    max-width: 1360px;
+    max-width: 85rem;
     margin: 0 auto;
 }
 
 .btn{
     font-size: 1.25rem;
-    height: 48px;
-    padding: 10px 20px;
-    border-radius: 25px;
+    height: 3rem;
+    padding: 0.625rem 1.25rem;
+    border-radius: 1.5625rem;
     font-weight: 400;
-    padding: 10px 22px;
+    padding: 0.625rem 1.375rem;
     transition: background-color 0.3s ease, transform 0.3s ease, border 0.3s ease;
 }
 
@@ -24,8 +24,8 @@ main{
     background-color: transparent;
     color: var(--cor-superficie);
     border: 2px solid var(--cor-superficie);
-    margin-right: 16px;
-    line-height: 23px;
+    margin-right: 1rem;
+    line-height: 1.4375rem;
     transition: color 0.4s ease, transform 0.3s ease;
 }
 
@@ -39,5 +39,5 @@ main{
 .btn:hover {
     background-color: var(--cor-destaque);
     color: var(--cor-superficie);
-    transform: translateY(-4px);
+    transform: translateY(-0.25rem);
 }

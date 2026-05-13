@@ -1,6 +1,6 @@
 /* Product grid */
 .card {
-    border-radius: 15px;
+    border-radius: 0.9375rem;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -10,7 +10,7 @@
     text-align: center;
     justify-content: center;
     color: var(--cor-superficie);
-    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    text-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.5);
 }
 
 .top1 {
@@ -46,18 +46,18 @@
 .products-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(3, 260px);
+    grid-template-rows: repeat(3, 16.25rem);
     grid-template-areas:
         "top1 top1 top2 top2"
         "top1 top1 midL midR"
         "bottomL bottomL midL bottomR";
-    gap: 30px;
+    gap: 1.875rem;
 }
 
 .top-content {
     display: flex;
     justify-content: center;
-    margin-top: 20px;
+    margin-top: 1.25rem;
 }
 
 .card .title{
@@ -65,21 +65,21 @@
     font-weight: 500;
     font-size: 1.25rem;
     letter-spacing: 0.08em;
-    line-height: 24px;
+    line-height: 1.5rem;
 }
 
 .card .subtitle{
     color: #EDEDED;
-    margin-bottom: 10px;
+    margin-bottom: 0.625rem;
     font-weight: 500;
     font-size: 1.5rem;
     letter-spacing: 0.08em;
-    line-height: 32px;
+    line-height: 2rem;
 }
 
 .cta-group {
     display: flex;
     justify-content: center;
-    gap: 10px;
-    margin-top: 20px;
+    gap: 0.625rem;
+    margin-top: 1.25rem;
 }
