@@ -10,9 +10,10 @@
 }
 
 .footer-content {
-    display: grid;
-    grid-template-columns: minmax(240px, 320px) 1fr;
-    gap: 72px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 32px;
     max-width: 1300px;
     margin: 0 auto;
     padding-bottom: 42px;
@@ -107,7 +108,7 @@
 .footer-links {
     display: grid;
     grid-template-columns: repeat(5, max-content);
-    justify-content: space-between;
+    justify-content: end;
     column-gap: 20px;
     row-gap: 40px;
 }
