@@ -1,9 +1,12 @@
 /* Footer */
-
+.footer{
+    background-color: var(--cor-texto-principal);
+}
 .footer-links {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
     justify-content: center;
+    color: var(--cor-texto-principal);
     margin-bottom: 20px;
 }

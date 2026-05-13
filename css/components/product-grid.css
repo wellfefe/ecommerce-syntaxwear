@@ -7,6 +7,7 @@
     position: relative;
     display: flex;
     align-items: center;
+    text-align: center;
     justify-content: center;
     color: var(--cor-superficie);
     text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
@@ -60,6 +61,7 @@
 }
 
 .card .title{
+    color: #EDEDED;
     font-weight: 500;
     font-size: 1.25rem;
     letter-spacing: 8%;
@@ -67,6 +69,7 @@
 }
 
 .card .subtitle{
+    color: #EDEDED;
     margin-bottom: 10px;
     font-weight: 500;
     font-size: 1.5rem;
@@ -77,5 +80,6 @@
 .cta-group {
     display: flex;
     justify-content: center;
+    gap: 10px;
     margin-top: 20px;
 }
