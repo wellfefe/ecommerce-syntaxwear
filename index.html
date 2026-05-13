@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SyntaxWear - Tenis e Sneakers Online</title>
     <meta name="description"
-        content="Compre os melhores tenis e sneakers online na SyntaxWear. Encontre os modelos mais estilosos e confortáveis para todas as ocasiões. Tenis de alta qualidade, entrega rápida e atendimento excepcional. Descubra a coleção completa agora!">
+        content="Compre os melhores tenis e sneakers online na SyntaxWear. Encontre os modelos mais estilosos e confortaveis para todas as ocasioes. Tenis de alta qualidade, entrega rapida e atendimento excepcional. Descubra a colecao completa agora!">
 
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/variables.css">
@@ -64,12 +64,13 @@
             <div class="hero-overlay">
                 <div class="hero-content">
                     <span class="hero-title">Krypton One</span>
-                    <h2 class="hero-subtitle">Transforme qualquer passo em presença</h2>
+                    <h2 id="hero-title" class="hero-subtitle">Transforme qualquer passo em presenca</h2>
                     <div class="hero-buttons">
                         <a href="#" class="btn btn-primary-outline" aria-label="Ver modelos">Ver modelos</a>
                         <a href="#" class="btn btn-secondary-fill" aria-label="Comprar">Comprar</a>
                     </div>
                 </div>
+            </div>
         </section>
 
         <section id="categorias" class="categories-section" aria-labelledby="categories-title">
@@ -99,14 +100,15 @@
             </div>
         </section>
 
-        <section class="products-grid" aria-labelledby="products-grid">
+        <section class="products-grid" aria-labelledby="products-grid-title">
+            <h2 id="products-grid-title" class="sr-only">Produtos em destaque</h2>
             <div class="card top1">
                 <div class="top1-content">
                     <h3 class="card-title">Krypton One</h3>
-                    <p class="card subtitle">Estilo moderno e tecnológico</p>
+                    <p class="card subtitle">Estilo moderno e tecnologico</p>
                     <div class="cta-group">
-                        <a href="#" class="btn btn-primary-outline" aria-label="Ver modelos">Feminino</a>
-                        <a href="#" class="btn btn-primary-outline" aria-label="Comprar">Masculino</a>
+                        <a href="#" class="btn btn-primary-outline" aria-label="Ver modelos femininos">Feminino</a>
+                        <a href="#" class="btn btn-primary-outline" aria-label="Ver modelos masculinos">Masculino</a>
                     </div>
                 </div>
             </div>
@@ -119,46 +121,79 @@
     </main>
 
     <footer id="contato" class="footer">
-        <section class="contact-info" aria-labelledby="contact-title">
-            <h2 id="contact-title">Contato</h2>
-        </section>
+        <div class="footer-content">
+            <section class="footer-newsletter" aria-labelledby="footer-newsletter-title">
+                <h2 id="footer-newsletter-title">Inscreva-se em nosso e-mail</h2>
+                <form class="footer-form">
+                    <label class="sr-only" for="footer-email">E-mail</label>
+                    <input type="email" id="footer-email" name="email" placeholder="email@email.com">
+                </form>
 
-        <nav class="footer-links" aria-label="Links do rodape">
-            <ul>
-                <li>Masculino</a></li>
-                <li><a href="#" aria-label="Casual">Casual</a></li>
-                <li><a href="#" aria-label="Esporte">Esporte</a></li>
-                <li><a href="#" aria-label="Moderno">Moderno</a></li>
-                <li><a href="#" aria-label="Futurista">Futurista</a></li>
-            </ul>
+                <div class="footer-social">
+                    <h2>Redes sociais</h2>
+                    <ul aria-label="Redes sociais da SyntaxWear">
+                        <li>
+                            <a href="#" aria-label="Instagram">
+                                <img src="./images/favicons/Instagram.svg" alt="Instagram">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" aria-label="WhatsApp">
+                                <img src="./images/favicons/WhatsApp.svg" alt="WhatsApp">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" aria-label="TikTok">
+                                <img src="./images/favicons/TikTok.svg" alt="TikTok">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" aria-label="Facebook">
+                                <img src="./images/favicons/Facebook.svg" alt="Facebook">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
 
-            <ul>
-                <li>Feminino</a></li>
-                <li><a href="#" aria-label="Casual">Casual</a></li>
-                <li><a href="#" aria-label="Esporte">Esporte</a></li>
-                <li><a href="#" aria-label="Moderno">Moderno</a></li>
-                <li><a href="#" aria-label="Futurista">Futurista</a></li>
-            </ul>
+            <nav class="footer-links" aria-label="Links do rodape">
+                <ul>
+                    <li class="footer-link-title">Masculino</li>
+                    <li><a href="#" aria-label="Casual masculino">Casual</a></li>
+                    <li><a href="#" aria-label="Esporte masculino">Esporte</a></li>
+                    <li><a href="#" aria-label="Moderno masculino">Moderno</a></li>
+                    <li><a href="#" aria-label="Futurista masculino">Futurista</a></li>
+                </ul>
 
-            <ul>
-                <li>Outlet</a></li>
-                <li><a href="#" aria-label="Masculino">Masculino</a></li>
-                <li><a href="#" aria-label="Feminino">Feminino</a></li>
-            </ul>
+                <ul>
+                    <li class="footer-link-title">Feminino</li>
+                    <li><a href="#" aria-label="Casual feminino">Casual</a></li>
+                    <li><a href="#" aria-label="Esporte feminino">Esporte</a></li>
+                    <li><a href="#" aria-label="Moderno feminino">Moderno</a></li>
+                    <li><a href="#" aria-label="Futurista feminino">Futurista</a></li>
+                </ul>
 
-            <ul>
-                <li>Nossas lojas</a></li>
-                <li><a href="#" aria-label="Loja Física">Loja Física</a></li>
-                <li><a href="#" aria-label="Loja online">Loja online</a></li>
-            </ul>
+                <ul>
+                    <li class="footer-link-title">Outlet</li>
+                    <li><a href="#" aria-label="Outlet masculino">Masculino</a></li>
+                    <li><a href="#" aria-label="Outlet feminino">Feminino</a></li>
+                </ul>
 
-            <ul>
-                <li>Sobre</a></li>
-                <li><a href="#" aria-label="Quem somos">Quem somos</a></li>
-                <li><a href="#" aria-label="Missão">Missão</a></li>
-            </ul>
+                <ul>
+                    <li class="footer-link-title">Nossas lojas</li>
+                    <li><a href="#" aria-label="Loja fisica">Loja F&iacute;sica</a></li>
+                    <li><a href="#" aria-label="Loja online">Loja online</a></li>
+                </ul>
 
-        </nav>
+                <ul>
+                    <li class="footer-link-title">Sobre</li>
+                    <li><a href="#" aria-label="Quem somos">Quem somos</a></li>
+                    <li><a href="#" aria-label="Missao">Miss&atilde;o</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <p class="footer-copy">Copyright. All Rights Reserved</p>
     </footer>
 </body>
 
