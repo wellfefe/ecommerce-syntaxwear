@@ -1,1 +1,81 @@
 /* Product grid */
+.card {
+    border-radius: 15px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--cor-superficie);
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.top1 {
+    grid-area: top1;
+    background-image: url(../../images/products/modelo-homem.svg);
+}
+
+.top2 {
+    grid-area: top2;
+    background-image: url(../../images/products/tênis\ roxo\ e\ verde.jpg);
+}
+
+.midL {
+    grid-area: midL;
+    background-image: url(../../images/products/modelo-feminina.svg);
+}
+
+.midR {
+    grid-area: midR;
+    background-image: url(../../images/products/futurista-grid.jpg);
+}
+
+.bottomL {
+    grid-area: bottomL;
+    background-image: url(../../images/products/tênis\ preto\ azul.jpg);
+}
+
+.bottomR {
+    grid-area: bottomR;
+    background-image: url(../../images/products/tênis\ futurista.jpg);
+}
+
+.products-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 260px);
+    grid-template-areas:
+        "top1 top1 top2 top2"
+        "top1 top1 midL midR"
+        "bottomL bottomL midL bottomR";
+    gap: 30px;
+}
+
+.to1-content {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.card .title{
+    font-weight: 500;
+    font-size: 1.25rem;
+    letter-spacing: 8%;
+    line-height: 24px;
+}
+
+.card .subtitle{
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-size: 1.5rem;
+    letter-spacing: 8%;
+    line-height: 32px;
+}
+
+.cta-group {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}

@@ -1,10 +1,11 @@
 .header{
     background-color: var(--cor-superficie);
     position: fixed;
-    top: 20px;
+    top: 60px;
     left: 50%;
     transform: translate(-50%);
-    width: calc(100% - 100px);
+    max-width: 1320px;
+    width: calc(100% - 210px);
     border-radius: 15px;
     z-index: 1000;
     display: flex;
@@ -40,6 +41,7 @@
     color: var(--cor-texto-principal);
     font-weight: 400;
     font-size: 1.25rem;
+    line-height: 28px;
     transition: color 0.3s ease, transform 0.3s ease;
 }
 
